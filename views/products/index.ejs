@@ -8,6 +8,7 @@
 <body>
       <h1>All products will be here</h1>
       <a href="/products/new">create a new product</a>
+      <a href="/products">product page</a>
       <ul>
             <% products.forEach(product => { %>
              <li><a href="/products/<%= product._id %>"><%= product.name %></a></li>
